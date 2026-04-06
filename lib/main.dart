@@ -29,27 +29,19 @@ class TelaPrincipal extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.green,
-      appBar: AppBar(
-        title: const Text('Atividade GitHub'),
-      ),
+      appBar: AppBar(title: const Text('Atividade GitHub')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text(
-              'Olá, mundo!',
-              style: TextStyle(
-                fontSize: 28,
-                color: Colors.white,
-              ),
+              'salve salve tropinha!',
+              style: TextStyle(fontSize: 28, color: Colors.white),
             ),
 
             const SizedBox(height: 20),
 
-            ElevatedButton(
-              onPressed: () {},
-              child: const Text('botao'),
-            ),
+            ElevatedButton(onPressed: () {}, child: const Text('salve')),
           ],
         ),
       ),
